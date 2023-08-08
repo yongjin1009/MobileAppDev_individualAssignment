@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Individual_assignment">
         <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".AmountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PercentageActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
